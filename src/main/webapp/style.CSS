@@ -1,0 +1,177 @@
+.imagemFundo {
+    background-image: url(imagens/logo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.botao {
+    background-color: #DB4F1E;
+    width: 100%;
+    height: 50px;
+    font-weight: bold;
+    border-radius: 20px;
+}
+
+#imgMenu {
+    width: 190px;
+    height: 150px;
+}
+
+#botaoSubmit {
+    width: 200px;
+    height: 50px;
+    background-color: #EA7544;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+#botaoVoltar {
+    font-weight: bold;
+    width: 100%;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+}
+
+.botaoVotarSub {
+    width: 200px;
+    height: 50px;
+    background-color: #24342C;
+    color: white;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+#escolha{
+    display: flex;
+    flex-direction: column;
+    background-image: url(imagens/fundo-site-responsivo.png); 
+    width: 100%; 
+    margin: 30px 0;
+}
+
+.cards-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.card img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.card {
+    margin: 0 0.5em;
+    box-shadow: 2px 6px 8px 0 rgba(22, 22, 26, 0.18);
+    border: none;
+    border-radius: 0;
+}
+
+.carousel-inner {
+    padding: 1em;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    background-color: #e1e1e1;
+    width: 5vh;
+    height: 5vh;
+    border-radius: 50%;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+@media (min-width: 768px) {
+    .card img {
+        height: 11em;
+    }
+}
+
+.MultiCarousel {
+    float: left;
+    overflow: hidden;
+    padding: 15px;
+    width: 100%;
+    position: relative;
+}
+
+.MultiCarousel .MultiCarousel-inner {
+    transition: 1s ease all;
+    float: left;
+}
+
+.MultiCarousel .MultiCarousel-inner .item {
+    float: left;
+}
+
+.MultiCarousel .MultiCarousel-inner .item>div {
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+    background: #f1f1f1;
+    color: #666;
+}
+
+.MultiCarousel .leftLst,
+.MultiCarousel .rightLst {
+    position: absolute;
+    border-radius: 50%;
+    top: calc(50% - 20px);
+}
+
+.MultiCarousel .leftLst {
+    left: 0;
+}
+
+.MultiCarousel .rightLst {
+    right: 0;
+}
+
+.MultiCarousel .leftLst.over,
+.MultiCarousel .rightLst.over {
+    pointer-events: none;
+    background: #ccc;
+}
+
+h11 {
+    color:red;
+}
+
+#logo {
+        width:50%;
+        height:50%;
+}
+
+.panel-heading{
+    font-size:150%;
+}
+.how-section1{
+    margin-top:-15%;
+    padding: 10%;
+}
+.how-section1 h4{
+    color: #ffa500;
+    font-weight: bold;
+    font-size: 30px;
+}
+.how-section1 .subheading{
+    color: #3931af;
+    font-size: 20px;
+}
+.how-section1 .row
+{
+    margin-top: 10%;
+}
+.how-img 
+{
+    text-align: center;
+}
+.how-img img{
+    width: 40%;
+} 
+.banner {
+    background: #a770ef;
+    background: -webkit-linear-gradient(to right, #a770ef, #cf8bf3, #fdb99b);
+    background: linear-gradient(to right, #a770ef, #cf8bf3, #fdb99b);
+  }

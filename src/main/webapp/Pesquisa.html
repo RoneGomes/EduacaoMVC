@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="style.CSS">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pesquisa</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+  <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+
+</head>
+
+<body>
+  <nav>
+    <nav class="navbar navbar-expand-lg navbar-light" style="background-color:#DB4F1E ;">
+      <div class="container-fluid">
+        <img id="imgMenu" src="imagens/logopequeno.jpg">
+        <button class="btn " type="button">
+          <img src="imagens/user.png" alt=" ">
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active fs-3" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active fs-3" href="Pesquisa.html">Doar</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active fs-3" href="Cadastro.html">
+                Cadastro
+              </a>
+
+            </li>
+          </ul>
+
+          <form class="d-flex">
+            <input class="form-control me-2" style="border-radius: 20px;" type="search" placeholder="Ache uma causa.."
+              aria-label="Search">
+            <button class="btn btn-outline-success text-dark fs-4"
+              style="border-radius: 20px; background-color: chartreuse;" type="submit"><strong>Buscar</strong></button>
+          </form>
+        </div>
+      </div>
+    </nav>
+  </nav>
+  <header>
+    <main>
+      <div class="how-section1">
+        <div class="row">
+          <div class="col-7 ">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d15924.297116907868!2d-38.4744683!3d-3.7939929!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1spt-BR!2sbr!4v1664645231619!5m2!1spt-BR!2sbr"
+              width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+          <div class="col-3">
+            <h4>Buscar causa...</h4>
+            <h4 class="subheading">Onde você está?</h4>
+            <div class="col-md-4">
+              <label for="validationCustom04" class="form-label">Estado...</label><br>
+              <select id="estados"><br>
+                <option value="">Selecione...</option>
+                <option>Minas Gerais</option>
+                <option>São Paulo</option>
+                <option>Rio de Janeiro</option>
+              </select>
+              <div class="invalid-feedback">
+                Please select a valid state.
+              </div><br>
+            </div>
+            <div class="col-md-4">
+              <label for="validationCustom04" class="form-label">Cidade</label><br>
+              <select id="cidades"></select><br>
+              <div class="valid-feedback">
+                Looks good!
+              </div>
+            </div>
+            <div class="col-md-4">
+              <label for="validationCustom02" class="form-label">Por Nome...</label>
+              <input type="text" class="form-control" id="validationCustom02" value="" required>
+              <div class="valid-feedback">
+                Looks good!
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+      <hr>
+      <div class="container-fluid">
+        <div class="px-lg-5">      
+          <div class="row">
+            <!-- Gallery item -->
+            <div class="col-xl-3 col-lg-4 col-md-6 mb-4">
+              <div class="bg-white rounded shadow-sm"><img src="imagens/logo.jpg" alt="" class="img-fluid card-img-top">
+                <div class="p-4">
+                  <h5> <a href="Iniciativa.html" class="text-dark">Iniciativas</a></h5>
+                  <p class="small text-muted mb-0">Iniciativas sit amet, consectetur adipisicing elit</p>
+                  <div class="d-flex align-items-center justify-content-between rounded-pill bg-light px-3 py-2 mt-4">
+                    <p class="small mb-0"><i class="fa fa-picture-o mr-2"></i><span class="font-weight-bold">DOE</span></p>
+                    <div class="badge badge-danger px-3 rounded-pill font-weight-normal">New</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- End -->
+      
+            <!-- Gallery item -->
+            <div class="col-xl-3 col-lg-4 col-md-6 mb-4">
+              <div class="bg-white rounded shadow-sm"><img src="imagens/logo.jpg" alt="" class="img-fluid card-img-top">
+                <div class="p-4">
+                  <h5> <a href="Iniciativa.html" class="text-dark">Iniciativas</a></h5>
+                  <p class="small text-muted mb-0">Iniciativas sit amet, consectetur adipisicing elit</p>
+                  <div class="d-flex align-items-center justify-content-between rounded-pill bg-light px-3 py-2 mt-4">
+                    <p class="small mb-0"><i class="fa fa-picture-o mr-2"></i><span class="font-weight-bold">DOE</span></p>
+                    <div class="badge badge-primary px-3 rounded-pill font-weight-normal">Trend</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- End -->
+      
+            <!-- Gallery item -->
+            <div class="col-xl-3 col-lg-4 col-md-6 mb-4">
+              <div class="bg-white rounded shadow-sm"><img src="imagens/logo.jpg" alt="" class="img-fluid card-img-top">
+                <div class="p-4">
+                  <h5> <a href="Iniciativa.html" class="text-dark">Iniciativas</a></h5>
+                  <p class="small text-muted mb-0">Iniciativas sit amet, consectetur adipisicing elit</p>
+                  <div class="d-flex align-items-center justify-content-between rounded-pill bg-light px-3 py-2 mt-4">
+                    <p class="small mb-0"><i class="fa fa-picture-o mr-2"></i><span class="font-weight-bold">DOE</span></p>
+                    <div class="badge badge-warning px-3 rounded-pill font-weight-normal text-white">Featured</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- End -->
+      
+            <!-- Gallery item -->
+            <div class="col-xl-3 col-lg-4 col-md-6 mb-4">
+              <div class="bg-white rounded shadow-sm"><img src="imagens/logo.jpg" alt="" class="img-fluid card-img-top">
+                <div class="p-4">
+                  <h5> <a href="Iniciativa.html" class="text-dark">Iniciativas</a></h5>
+                  <p class="small text-muted mb-0">Iniciativas sit amet, consectetur adipisicing elit</p>
+                  <div class="d-flex align-items-center justify-content-between rounded-pill bg-light px-3 py-2 mt-4">
+                    <p class="small mb-0"><i class="fa fa-picture-o mr-2"></i><span class="font-weight-bold">DOE</span></p>
+                    <div class="badge badge-success px-3 rounded-pill font-weight-normal">Hot</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- End -->
+      
+            <!-- Gallery item -->
+            <div class="col-xl-3 col-lg-4 col-md-6 mb-4">
+              <div class="bg-white rounded shadow-sm"><img src="imagens/logo.jpg" alt="" class="img-fluid card-img-top">
+                <div class="p-4">
+                  <h5> <a href="Iniciativa.html" class="text-dark">Iniciativas</a></h5>
+                  <p class="small text-muted mb-0">Iniciativas sit amet, consectetur adipisicing elit</p>
+                  <div class="d-flex align-items-center justify-content-between rounded-pill bg-light px-3 py-2 mt-4">
+                    <p class="small mb-0"><i class="fa fa-picture-o mr-2"></i><span class="font-weight-bold">DOE</span></p>
+                    <div class="badge badge-primary px-3 rounded-pill font-weight-normal">New</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- End -->
+      
+            <!-- Gallery item -->
+            <div class="col-xl-3 col-lg-4 col-md-6 mb-4">
+              <div class="bg-white rounded shadow-sm"><img src="imagens/logo.jpg" alt="" class="img-fluid card-img-top">
+                <div class="p-4">
+                  <h5> <a href="Iniciativa.html" class="text-dark">Iniciativas</a></h5>
+                  <p class="small text-muted mb-0">Iniciativas sit amet, consectetur adipisicing elit</p>
+                  <div class="d-flex align-items-center justify-content-between rounded-pill bg-light px-3 py-2 mt-4">
+                    <p class="small mb-0"><i class="fa fa-picture-o mr-2"></i><span class="font-weight-bold">DOE</span></p>
+                    <div class="badge badge-warning px-3 rounded-pill font-weight-normal text-white">Featured</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- End -->
+      
+            <!-- Gallery item -->
+            <div class="col-xl-3 col-lg-4 col-md-6 mb-4">
+              <div class="bg-white rounded shadow-sm"><img src="imagens/logo.jpg" alt="" class="img-fluid card-img-top">
+                <div class="p-4">
+                  <h5> <a href="Iniciativa.html" class="text-dark">Iniciativas</a></h5>
+                  <p class="small text-muted mb-0">Iniciativas sit amet, consectetur adipisicing elit</p>
+                  <div class="d-flex align-items-center justify-content-between rounded-pill bg-light px-3 py-2 mt-4">
+                    <p class="small mb-0"><i class="fa fa-picture-o mr-2"></i><span class="font-weight-bold">DOE</span></p>
+                    <div class="badge badge-info px-3 rounded-pill font-weight-normal">Hot</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- End -->
+      
+            <!-- Gallery item -->
+            <div class="col-xl-3 col-lg-4 col-md-6 mb-4">
+              <div class="bg-white rounded shadow-sm"><img src="imagens/logo.jpg" alt="" class="img-fluid card-img-top">
+                <div class="p-4">
+                  <h5> <a href="Iniciativa.html" class="text-dark">Iniciativas</a></h5>
+                  <p class="small text-muted mb-0">Iniciativas sit amet, consectetur adipisicing elit</p>
+                  <div class="d-flex align-items-center justify-content-between rounded-pill bg-light px-3 py-2 mt-4">
+                    <p class="small mb-0"><i class="fa fa-picture-o mr-2"></i><span class="font-weight-bold">DOE</span></p>
+                    <div class="badge badge-warning px-3 rounded-pill font-weight-normal text-white">Featured</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- End -->
+      
+            <!-- Gallery item -->
+            <div class="col-xl-3 col-lg-4 col-md-6 mb-4">
+              <div class="bg-white rounded shadow-sm"><img src="imagens/logo.jpg" alt="" class="img-fluid card-img-top">
+                <div class="p-4">
+                  <h5> <a href="Iniciativa.html" class="text-dark">Iniciativas</a></h5>
+                  <p class="small text-muted mb-0">Iniciativas sit amet, consectetur adipisicing elit</p>
+                  <div class="d-flex align-items-center justify-content-between rounded-pill bg-light px-3 py-2 mt-4">
+                    <p class="small mb-0"><i class="fa fa-picture-o mr-2"></i><span class="font-weight-bold">DOE</span></p>
+                    <div class="badge badge-danger px-3 rounded-pill font-weight-normal">New</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- End -->
+      
+            <!-- Gallery item -->
+            <div class="col-xl-3 col-lg-4 col-md-6 mb-4">
+              <div class="bg-white rounded shadow-sm"><img src="imagens/logo.jpg" alt="" class="img-fluid card-img-top">
+                <div class="p-4">
+                  <h5> <a href="Iniciativa.html" class="text-dark">Iniciativas</a></h5>
+                  <p class="small text-muted mb-0">Iniciativas sit amet, consectetur adipisicing elit</p>
+                  <div class="d-flex align-items-center justify-content-between rounded-pill bg-light px-3 py-2 mt-4">
+                    <p class="small mb-0"><i class="fa fa-picture-o mr-2"></i><span class="font-weight-bold">DOE</span></p>
+                    <div class="badge badge-primary px-3 rounded-pill font-weight-normal">Trend</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- End -->
+      
+            <!-- Gallery item -->
+            <div class="col-xl-3 col-lg-4 col-md-6 mb-4">
+              <div class="bg-white rounded shadow-sm"><img src="imagens/logo.jpg" alt="" class="img-fluid card-img-top">
+                <div class="p-4">
+                  <h5> <a href="Iniciativa.html" class="text-dark">Iniciativas</a></h5>
+                  <p class="small text-muted mb-0">Iniciativas sit amet, consectetur adipisicing elit</p>
+                  <div class="d-flex align-items-center justify-content-between rounded-pill bg-light px-3 py-2 mt-4">
+                    <p class="small mb-0"><i class="fa fa-picture-o mr-2"></i><span class="font-weight-bold">DOE</span></p>
+                    <div class="badge badge-warning px-3 rounded-pill font-weight-normal text-white">Featured</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- End -->
+      
+            <!-- Gallery item -->
+            <div class="col-xl-3 col-lg-4 col-md-6 mb-4">
+              <div class="bg-white rounded shadow-sm"><img src="imagens/logo.jpg" alt="" class="img-fluid card-img-top">
+                <div class="p-4">
+                  <h5> <a href="Iniciativa.html" class="text-dark">Iniciativas</a></h5>
+                  <p class="small text-muted mb-0">Iniciativas sit amet, consectetur adipisicing elit</p>
+                  <div class="d-flex align-items-center justify-content-between rounded-pill bg-light px-3 py-2 mt-4">
+                    <p class="small mb-0"><i class="fa fa-picture-o mr-2"></i><span class="font-weight-bold">DOE</span></p>
+                    <div class="badge badge-success px-3 rounded-pill font-weight-normal">Hot</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- End -->
+      
+          </div>
+          <div class="py-5 text-right"><a href="Iniciativa.html" class="btn btn-dark px-5 py-3 text-uppercase">Mostre mais</a></div>
+        </div>
+      </div>
+
+    </main>
+    <footer>
+      <!--Inicio do Footer -->
+      <footer class="text-center text-lg-start text-muted">
+
+        <!-- Inicio do Bloco 01-->
+        <section class="d-flex justify-content-center text-white justify-content-lg-between p-4"
+          style="background-color: #DB4F1E; border-bottom: 1px solid chartreuse">
+          <!--Inicio das Midias -->
+          <div class="me-5 d-none d-lg-block">
+            <span>Conecte-se conosco nas redes sociais:</span>
+          </div>
+          <!--Fim das Midias -->
+
+          <!-- Inicio das Logos -->
+          <div>
+            <a href="https://www.facebook.com" class="btn-close-white me-4">
+              <i class="bi bi-facebook"></i>
+            </a>
+            <a href="https://twitter.com" class="btn-close-white me-4">
+              <i class="bi bi-twitter"></i>
+            </a>
+            <a href="https://www.google.com" class="btn-close-white me-4">
+              <i class="bi bi-google"></i>
+            </a>
+            <a href="https://www.instagram.com" class="btn-close-white me-4">
+              <i class="bi bi-instagram"></i>
+            </a>
+            <a href="https://br.linkedin.com" class="btn-close-white me-4">
+              <i class="bi bi-linkedin"></i>
+            </a>
+            <a href="https://github.com" class="btn-close-white me-4">
+              <i class="bi bi-github"></i>
+            </a>
+          </div>
+
+          <!--Fim das Logos -->
+        </section>
+        <!--Fim do Bloco 01 -->
+
+        <!-- Inicio do Bloco 02-->
+        <section class="text-white" style="background-color: #DB4F1E ;">
+          <div class="container text-center text-md-start mt-0">
+            <!--  row -->
+            <div class="row pt-5">
+              <!-- col 01-->
+              <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+                <!-- Content -->
+                <h6 class="text-uppercase fw-bold mb-4">
+                  <i class="fas fa-gem me-3"></i>EduAção
+                </h6>
+                <hr class="mt-2 mb-3 w-100"
+                  style="margin:auto; box-sizing: border-box; border: 1px solid chartreuse; background-color: chartreuse ;">
+                <p>
+                  Venha conhecer nossos maravilhosos destinos e criar novas memórias cheias de aventura, diversão e tudo
+                  o mais.
+                </p>
+              </div>
+              <!-- col 01 -->
+
+              <!-- col 02 -->
+              <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+
+                <h6 class="text-uppercase fw-bold mb-4">
+                  LINKS
+                </h6>
+                <hr class="mt-2 mb-3 w-100"
+                  style="margin:auto; box-sizing: border-box; border: 1px solid chartreuse; background-color: chartreuse ;">
+                <p>
+                  <a href="Iniciativa.html!" class="text-reset">Parceiros</a>
+                </p>
+                <p>
+                  <a href="Iniciativa.html!" class="text-reset">Doe</a>
+                </p>
+                <p>
+                  <a href="Iniciativa.html!" class="text-reset">ONGs</a>
+                </p>
+                <p>
+                  <a href="Iniciativa.html!" class="text-reset">Destaques</a>
+                </p>
+              </div>
+              <!-- col 02 -->
+
+              <!-- col 03 -->
+              <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+
+                <h6 class="text-uppercase fw-bold mb-4">
+                  NEWS LETTER
+                </h6>
+                <hr class="mt-2 mb-3 w-100"
+                  style="margin:auto; box-sizing: border-box; border: 1px solid chartreuse; background-color: chartreuse ;">
+                <p>Assine nossa newsletter semanal para receber notícias e atualizações</p>
+                <div class="input-group mb-3">
+                  <input type="text" class="form-control" placeholder="Recipient's username"
+                    aria-label="Recipient's username" aria-describedby="basic-addon2">
+                  <span style="background-color: chartreuse; font-weight: bolder;"
+                    class=" w-auto input-group-text text-bolder" id="basic-addon2">@</span>
+                </div>
+              </div>
+              <!-- col 03 -->
+
+              <!-- col 04 -->
+              <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+
+                <h6 class="text-uppercase fw-bold mb-4">
+                  Contato
+                </h6>
+                <hr class="mt-2 mb-3 w-100"
+                  style="margin:auto; box-sizing: border-box; border: 1px solid chartreuse; background-color: chartreuse ;">
+                <p><i class="bi bi-house me-3"></i> Brasil -</p>
+                <p>
+                  <i class="bi bi-envelope me-3"></i>
+                  EduAcao@example.com
+                </p>
+                <p><i class="bi bi-phone me-3"></i> +55 85994247315</p>
+                <p><i class="bi bi-phone me-3"></i> +55 85994247315</p>
+              </div>
+              <!-- col 04 -->
+            </div>
+            <!-- row -->
+          </div>
+        </section>
+        <!-- Fim do Bloco 02-->
+
+        <!-- Copyright -->
+        <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+          © 2022 Copyright:
+          <a class="text-reset fw-bold" href=""> Squad 26</a>
+        </div>
+        <!-- Copyright -->
+      </footer>
+      <!-- Footer -->
+    </footer>
+
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"></script>
+</body>
+
+</html>
+<script type="text/javascript">
+  // Em vez de uma variável para cada estado, o melhor é ter uma estrutura de
+  // dados unificada. Assim você não precisará de um "if" para cada estado na
+  // função que alimenta o select de cidades.
+  var brasil = {
+    'Rio de Janeiro': ['Belford Roxo', 'São joão de meriti', 'Duque de Caxias'],
+    'São paulo': ['Diadema', 'Bauru', 'Suzano'],
+    'Minas Gerais': ['Belo Horizonte', 'Betim', 'Contagem']
+  }
+
+  // Adicione os estados no fim do carregamento do DOM.
+  // Como esse script é o último elemento (e isso é bom), podemos fazer isso
+  // imediatamente. Se estivesse num arquivo independente carregado no head,
+  // você poderia esperar por um evento como o DOMContentLoaded.
+  // https://developer.mozilla.org/pt-BR/docs/Web/Events/DOMContentLoaded
+  Object.keys(brasil).forEach(estado => {
+    let opt = document.createElement('option')
+    opt.innerText = estado
+    estados.appendChild(opt)
+  })
+
+  // Para atualizar as cidades podemos reagir ao evento de mudança do estado:
+  estados.addEventListener('change', event => {
+    // Limpa o select de cidades:
+    while (cidades.firstChild) cidades.removeChild(cidades.firstChild)
+    // Pega as cidades do estado selecionado:
+    let cidadesArr = brasil[estados.value]
+    if (cidadesArr) {
+      // Cria o primeiro elemento de valor nulo:
+      let opt = document.createElement('option')
+      opt.innerText = 'Selecione...'
+      opt.value = ''
+      cidades.appendChild(opt)
+      // Cria uma opção para cada cidade:
+      cidadesArr.forEach(cidade => {
+        let opt = document.createElement('option')
+        opt.innerText = cidade
+        cidades.appendChild(opt)
+      })
+    }
+  })
+</script>
